@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="ht.jpg" alt="VARSHAA Logo" class="logo">
+        </div>
+        
+        <h2 class="title">Email Confirmation</h2>
+        <p class="message">Hey Mara, you're almost ready to start enjoying VARSHAA. Simply click the big yellow button below to verify your email address.</p>
+        <button class="button" id="verifyButton">Verify email address</button>
+       
+        
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css" rel="stylesheet">
+
+
+<div class="social-icons mt-4">
+    <div class="d-flex justify-content-center">
+        <a href="#" class="mx-2">
+            <i class="bi bi-facebook" style="font-size: 40px; color: #3b5998;"></i> 
+        </a>
+        <a href="#" class="mx-2">
+            <i class="bi bi-twitter" style="font-size: 40px; color: #00acee;"></i> 
+        </a>
+        <a href="#" class="mx-2">
+            <i class="bi bi-envelope-fill" style="font-size: 40px; color: #247703;"></i> 
+        </a>
+    </div>
+</div>
+
+        <div class="footer">
+            <p>Email sent by VARSHAA Networks</p>
+            <p>&copy; 2024 VARSHAA Networks LTD. All rights reserved.</p>
+        </div>
+    </div>
+
+    <script>
+
+    
+        document.getElementById('verifyButton').addEventListener('click', function() {
+            alert('Email verified successfully!');
+            window.location.href = "https://example.com/confirmation";
+        });
+    </script>
+</body>
+</html>
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Confirmation</title>
+    <style>
+        body {
+    background-color: #b7dbd5; 
+    background-image: url('https://via.placeholder.com/1500x1000'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+        .container {
+            background-color: #ffffff;
+            width: 100%;
+            max-width: 600px;
+            margin: 50px auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+        }
+        
+    .header img {
+            display: block;
+            margin: 0 auto;
+     }
+        
+        .header {
+    text-align: center; /* Center the image horizontally */
+    padding: 20px; /* Add some padding around the image */
+    background-color: #55e4cc; /* Optional: Add a background color */
+    padding: 20px;
+    border-radius: 10px 10px 0 0;
+}
+
+.logo {
+    max-width: 100%; /* Ensures the image resizes responsively */
+    height: auto; /* Keeps the image's aspect ratio */
+    display: inline-block; /* Ensures the image behaves as an inline element */
+}
+
+        .title {
+            font-size: 22px;
+            font-weight: bold;
+            margin: 20px 0;
+            color: black;
+        }
+        .message {
+            color: #777;
+            font-size: 16px;
+            margin-bottom: 30px;
+        }
+        .button {
+            background-color: #fbbc05;
+            padding: 15px 30px;
+            color: white;
+            font-size: 18px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #f9a602;
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 14px;
+            color: #aaa;
+        }
+        .social-icons {
+            margin: 20px 0;
+        }
+        .social-icons img {
+            width: 40px;
+            margin: 0 10px;
+        }
+
+        .social-icons {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 20px; 
+}
+
+.social-link {
+    margin: 0 10px; 
+}
+
+</style>
